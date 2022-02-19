@@ -1,24 +1,3 @@
-/* @keyframes move-eye-skew {
-    0% {
-        transform: none;
-    }
-    20% {
-        transform: translateX(-68px) translateY(30px) skewX(15deg) skewY(-10deg) scale(0.95);
-    }
-    25%,
-    44% {
-        transform: none;
-    }
-    50%,
-    60% {
-        transform: translateX(68px) translateY(-40px) skewX(5deg) skewY(2deg) scaleX(0.95);
-    }
-    66%,
-    100% {
-        transform: none;
-    }
-} */
-
 .eyeball {
     display: inline-block;
     width: 100%;
@@ -47,9 +26,7 @@
     margin: 30%;
     border-radius: 50%;
     background: radial-gradient(circle at 50% 50%, #208ab4 0%, #6fbfff 30%, #4381b2 100%);
-    /* transform: translateX(68px) translateY(-60px) skewX(15deg) skewY(2deg); */
     position: absolute;
-    /* animation: move-eye-skew 5s ease-out infinite; */
 }
 
 .iris:before {
